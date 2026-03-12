@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4B954FF06419B2DD3B11D3 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B19DAA0F1ECFB03DD32BC /* PracticeViewModel.swift */; };
+		24A508EB1734C5F4C1825066 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC250953E037C63D7E6E68 /* FeedbackView.swift */; };
+		2689B281E7920890A38597B0 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8C247C000E4B14C4E070D /* HistoryViewModel.swift */; };
+		2A918D02799604731A2E17C1 /* PoseComparisonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAB7C969F984145DF269F6 /* PoseComparisonService.swift */; };
+		342840922153042BA49DCB4E /* PracticeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52C801D5C9ADDFF045B309 /* PracticeViewModelTests.swift */; };
+		36F664BF52D69C350F19E9B2 /* BaDuanJinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78265C3AE4D5C2895876D39 /* BaDuanJinApp.swift */; };
+		4D7B6A6250369047F082E8C3 /* PracticePreparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6B63663753BC2432D2860 /* PracticePreparationView.swift */; };
+		522461C551CD4ED01AD8C1D1 /* SkeletonOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE84FFC2A88D7EE9124225 /* SkeletonOverlayView.swift */; };
+		554DEFC823974CD9BBD30D37 /* UserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467FBD388043941C29E420 /* UserStats.swift */; };
+		55830AA46E2813FF4625A7E5 /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF7FBE588C9FA52CD77CD4 /* PracticeSession.swift */; };
+		5B1F787A1ACC0FE19123374F /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDC3EA7AA84DB15D122BDB4 /* CameraPreviewView.swift */; };
+		5D30C6B148C48E467A9977B5 /* MovementLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1BAFF329268582F4D048AB /* MovementLibraryView.swift */; };
+		69533885F860791EA98A6587 /* PoseDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F17B7EA5F0357022628BA4 /* PoseDetectionService.swift */; };
+		7DF15934C156188400E7923A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999D4C9CF509EAFA51E8BD52 /* HistoryView.swift */; };
+		8CB2537CC3647C728BFADD7E /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4D523210CA279551E32E2 /* CameraService.swift */; };
+		9247D562778E13F32CFF7262 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72983539D1728F3096BFD9EA /* ReportView.swift */; };
+		ACCFC98A70AE4872AE9A92B8 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB59D93CE381B2A26ABB91E /* DashboardViewModel.swift */; };
+		B111FB997973A9268AAA227A /* MovementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37C7ADFBF2A7156E6EBB58 /* MovementDefinition.swift */; };
+		B57715CCADFC508B2707890A /* ScoringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6E02CFE11289B7B85F9D8E /* ScoringEngine.swift */; };
+		B9C8671442B9271BACCC308A /* PoseAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013011BECA7C6DA46E7A450 /* PoseAnalyzerTests.swift */; };
+		BF9BE8FBBF2CB70CE9E715F6 /* MovementResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A2D7911BE67FDF1864884 /* MovementResultTests.swift */; };
+		C4B309448A612C0E0DDCA445 /* PoseComparisonServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87917589957D0BFCAB62A873 /* PoseComparisonServiceTests.swift */; };
+		CC50413E0BEBB0326DD0F973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A58CD1469066AAA25CFFC /* ContentView.swift */; };
+		CC9EEAE9102EC464A69D4D29 /* PracticeCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ABB8B52E54A33BFC582617 /* PracticeCompletionView.swift */; };
+		CCF531ECA3904EFC99E88E7F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D768FCCBAF9C72820613E0 /* DashboardView.swift */; };
+		D0659127130CEF3E3E17D516 /* ScoringEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5680B6A67384E6C91540B57 /* ScoringEngineTests.swift */; };
+		D589519E988816510CA52563 /* MovementResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2238D62025E0F553B0033A3 /* MovementResult.swift */; };
+		D5957763B012C59DD03CAD0A /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783408E7D99B8AC8E28E4F46 /* PracticeView.swift */; };
+		E22265BFD17B12127BAF927C /* PoseAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74C2CDB6475A34AF331F20 /* PoseAnalyzer.swift */; };
+		E4AF31C7FFADCC365DC058E8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250FDCAB5E698159C4698021 /* Extensions.swift */; };
+		F305ACB40F3543E62377D79B /* PracticeSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0EB48DA682A3813D3995 /* PracticeSessionTests.swift */; };
+		FFD1072E2B41EBD310AF6594 /* PracticeDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED30D2DAB6ED55EB80ACF9 /* PracticeDetectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A51C212441D5F44AF7639149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0D06AFB494C5AE279ADFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9C100B7D37953C8BFAAD51;
+			remoteInfo = BaDuanJin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DAF7FBE588C9FA52CD77CD4 /* PracticeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSession.swift; sourceTree = "<group>"; };
+		1A4A58CD1469066AAA25CFFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		250FDCAB5E698159C4698021 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2779C3A669F1A63CF70BB4CF /* BaDuanJin.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BaDuanJin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB527AB8E3D372A53BC853B /* BaDuanJinTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BaDuanJinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D768FCCBAF9C72820613E0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		3E52C801D5C9ADDFF045B309 /* PracticeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModelTests.swift; sourceTree = "<group>"; };
+		45E4D523210CA279551E32E2 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		52F17B7EA5F0357022628BA4 /* PoseDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetectionService.swift; sourceTree = "<group>"; };
+		59E8C247C000E4B14C4E070D /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		6ACAB7C969F984145DF269F6 /* PoseComparisonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseComparisonService.swift; sourceTree = "<group>"; };
+		72983539D1728F3096BFD9EA /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		77F6B63663753BC2432D2860 /* PracticePreparationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePreparationView.swift; sourceTree = "<group>"; };
+		783408E7D99B8AC8E28E4F46 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		7E37C7ADFBF2A7156E6EBB58 /* MovementDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementDefinition.swift; sourceTree = "<group>"; };
+		83DC250953E037C63D7E6E68 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		87917589957D0BFCAB62A873 /* PoseComparisonServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseComparisonServiceTests.swift; sourceTree = "<group>"; };
+		999D4C9CF509EAFA51E8BD52 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		9DBE84FFC2A88D7EE9124225 /* SkeletonOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonOverlayView.swift; sourceTree = "<group>"; };
+		9F467FBD388043941C29E420 /* UserStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStats.swift; sourceTree = "<group>"; };
+		A02B19DAA0F1ECFB03DD32BC /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		AB1BAFF329268582F4D048AB /* MovementLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementLibraryView.swift; sourceTree = "<group>"; };
+		ABDC3EA7AA84DB15D122BDB4 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		AFCA0EB48DA682A3813D3995 /* PracticeSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSessionTests.swift; sourceTree = "<group>"; };
+		B5680B6A67384E6C91540B57 /* ScoringEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringEngineTests.swift; sourceTree = "<group>"; };
+		BFB59D93CE381B2A26ABB91E /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		BFED30D2DAB6ED55EB80ACF9 /* PracticeDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeDetectionView.swift; sourceTree = "<group>"; };
+		CA6E02CFE11289B7B85F9D8E /* ScoringEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringEngine.swift; sourceTree = "<group>"; };
+		D2238D62025E0F553B0033A3 /* MovementResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementResult.swift; sourceTree = "<group>"; };
+		D78265C3AE4D5C2895876D39 /* BaDuanJinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaDuanJinApp.swift; sourceTree = "<group>"; };
+		E69E7264E11D8339828998C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE74C2CDB6475A34AF331F20 /* PoseAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseAnalyzer.swift; sourceTree = "<group>"; };
+		F013011BECA7C6DA46E7A450 /* PoseAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseAnalyzerTests.swift; sourceTree = "<group>"; };
+		F2ABB8B52E54A33BFC582617 /* PracticeCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCompletionView.swift; sourceTree = "<group>"; };
+		FE4A2D7911BE67FDF1864884 /* MovementResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementResultTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D01B0244AC49C0CF7541B66 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3E52C801D5C9ADDFF045B309 /* PracticeViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		137036AAC95B24CF0FC4ECB5 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				38D768FCCBAF9C72820613E0 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3A0A2A44D078501AE1ACB464 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				72983539D1728F3096BFD9EA /* ReportView.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		4C5CB1D73DB1247BF591953A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2779C3A669F1A63CF70BB4CF /* BaDuanJin.app */,
+				2BB527AB8E3D372A53BC853B /* BaDuanJinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0A7D20766B410E3106647F /* History */ = {
+			isa = PBXGroup;
+			children = (
+				999D4C9CF509EAFA51E8BD52 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		6C6664DAE5456D348AA9BB39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BFB59D93CE381B2A26ABB91E /* DashboardViewModel.swift */,
+				59E8C247C000E4B14C4E070D /* HistoryViewModel.swift */,
+				A02B19DAA0F1ECFB03DD32BC /* PracticeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		757B78B45E59AACE2195EA7C = {
+			isa = PBXGroup;
+			children = (
+				B02124C3A28629187F1823E2 /* BaDuanJin */,
+				E69D7199894A107624CE39A9 /* BaDuanJinTests */,
+				4C5CB1D73DB1247BF591953A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF6D1A2907993068971EB25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD90524D1B33FE277F0235B5 /* Components */,
+				137036AAC95B24CF0FC4ECB5 /* Dashboard */,
+				6B0A7D20766B410E3106647F /* History */,
+				AE11979B4EB7EBA44F547F04 /* MovementLibrary */,
+				F06C447382954730F02E65BE /* Practice */,
+				3A0A2A44D078501AE1ACB464 /* Report */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A55334070F7389527757A512 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E37C7ADFBF2A7156E6EBB58 /* MovementDefinition.swift */,
+				D2238D62025E0F553B0033A3 /* MovementResult.swift */,
+				0DAF7FBE588C9FA52CD77CD4 /* PracticeSession.swift */,
+				9F467FBD388043941C29E420 /* UserStats.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD90524D1B33FE277F0235B5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ABDC3EA7AA84DB15D122BDB4 /* CameraPreviewView.swift */,
+				83DC250953E037C63D7E6E68 /* FeedbackView.swift */,
+				9DBE84FFC2A88D7EE9124225 /* SkeletonOverlayView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AE11979B4EB7EBA44F547F04 /* MovementLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				AB1BAFF329268582F4D048AB /* MovementLibraryView.swift */,
+			);
+			path = MovementLibrary;
+			sourceTree = "<group>";
+		};
+		B02124C3A28629187F1823E2 /* BaDuanJin */ = {
+			isa = PBXGroup;
+			children = (
+				D78265C3AE4D5C2895876D39 /* BaDuanJinApp.swift */,
+				1A4A58CD1469066AAA25CFFC /* ContentView.swift */,
+				E69E7264E11D8339828998C4 /* Info.plist */,
+				A55334070F7389527757A512 /* Models */,
+				F665B409D10066AE53F6A86D /* Services */,
+				BA9576A04F45D33A6BC97218 /* Utilities */,
+				6C6664DAE5456D348AA9BB39 /* ViewModels */,
+				8AF6D1A2907993068971EB25 /* Views */,
+			);
+			path = BaDuanJin;
+			sourceTree = "<group>";
+		};
+		BA9576A04F45D33A6BC97218 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				250FDCAB5E698159C4698021 /* Extensions.swift */,
+				CA6E02CFE11289B7B85F9D8E /* ScoringEngine.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BF52BE423E41FF4A8CAACF2E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F013011BECA7C6DA46E7A450 /* PoseAnalyzerTests.swift */,
+				87917589957D0BFCAB62A873 /* PoseComparisonServiceTests.swift */,
+				B5680B6A67384E6C91540B57 /* ScoringEngineTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E69D7199894A107624CE39A9 /* BaDuanJinTests */ = {
+			isa = PBXGroup;
+			children = (
+				E96DAC2C9667D628C439F31C /* Models */,
+				BF52BE423E41FF4A8CAACF2E /* Services */,
+				0D01B0244AC49C0CF7541B66 /* ViewModels */,
+			);
+			path = BaDuanJinTests;
+			sourceTree = "<group>";
+		};
+		E96DAC2C9667D628C439F31C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE4A2D7911BE67FDF1864884 /* MovementResultTests.swift */,
+				AFCA0EB48DA682A3813D3995 /* PracticeSessionTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F06C447382954730F02E65BE /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				F2ABB8B52E54A33BFC582617 /* PracticeCompletionView.swift */,
+				BFED30D2DAB6ED55EB80ACF9 /* PracticeDetectionView.swift */,
+				77F6B63663753BC2432D2860 /* PracticePreparationView.swift */,
+				783408E7D99B8AC8E28E4F46 /* PracticeView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		F665B409D10066AE53F6A86D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				45E4D523210CA279551E32E2 /* CameraService.swift */,
+				EE74C2CDB6475A34AF331F20 /* PoseAnalyzer.swift */,
+				6ACAB7C969F984145DF269F6 /* PoseComparisonService.swift */,
+				52F17B7EA5F0357022628BA4 /* PoseDetectionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9C100B7D37953C8BFAAD51 /* BaDuanJin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A7D09DD14C2807E0CCEFB8 /* Build configuration list for PBXNativeTarget "BaDuanJin" */;
+			buildPhases = (
+				92B184870AFE18888F9D6362 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaDuanJin;
+			packageProductDependencies = (
+			);
+			productName = BaDuanJin;
+			productReference = 2779C3A669F1A63CF70BB4CF /* BaDuanJin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5CD300DF60EB210F810B1C /* BaDuanJinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1713DD9758EAE8A610C549 /* Build configuration list for PBXNativeTarget "BaDuanJinTests" */;
+			buildPhases = (
+				989CFDE7610DAD86F5F443CF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61958FD99DD371659A93F2C1 /* PBXTargetDependency */,
+			);
+			name = BaDuanJinTests;
+			packageProductDependencies = (
+			);
+			productName = BaDuanJinTests;
+			productReference = 2BB527AB8E3D372A53BC853B /* BaDuanJinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0D06AFB494C5AE279ADFC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 6C8AD4601293568C2C71AB43 /* Build configuration list for PBXProject "BaDuanJin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 757B78B45E59AACE2195EA7C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4C5CB1D73DB1247BF591953A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9C100B7D37953C8BFAAD51 /* BaDuanJin */,
+				EA5CD300DF60EB210F810B1C /* BaDuanJinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B184870AFE18888F9D6362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F664BF52D69C350F19E9B2 /* BaDuanJinApp.swift in Sources */,
+				5B1F787A1ACC0FE19123374F /* CameraPreviewView.swift in Sources */,
+				8CB2537CC3647C728BFADD7E /* CameraService.swift in Sources */,
+				CC50413E0BEBB0326DD0F973 /* ContentView.swift in Sources */,
+				CCF531ECA3904EFC99E88E7F /* DashboardView.swift in Sources */,
+				ACCFC98A70AE4872AE9A92B8 /* DashboardViewModel.swift in Sources */,
+				E4AF31C7FFADCC365DC058E8 /* Extensions.swift in Sources */,
+				24A508EB1734C5F4C1825066 /* FeedbackView.swift in Sources */,
+				7DF15934C156188400E7923A /* HistoryView.swift in Sources */,
+				2689B281E7920890A38597B0 /* HistoryViewModel.swift in Sources */,
+				B111FB997973A9268AAA227A /* MovementDefinition.swift in Sources */,
+				5D30C6B148C48E467A9977B5 /* MovementLibraryView.swift in Sources */,
+				D589519E988816510CA52563 /* MovementResult.swift in Sources */,
+				E22265BFD17B12127BAF927C /* PoseAnalyzer.swift in Sources */,
+				2A918D02799604731A2E17C1 /* PoseComparisonService.swift in Sources */,
+				69533885F860791EA98A6587 /* PoseDetectionService.swift in Sources */,
+				CC9EEAE9102EC464A69D4D29 /* PracticeCompletionView.swift in Sources */,
+				FFD1072E2B41EBD310AF6594 /* PracticeDetectionView.swift in Sources */,
+				4D7B6A6250369047F082E8C3 /* PracticePreparationView.swift in Sources */,
+				55830AA46E2813FF4625A7E5 /* PracticeSession.swift in Sources */,
+				D5957763B012C59DD03CAD0A /* PracticeView.swift in Sources */,
+				1F4B954FF06419B2DD3B11D3 /* PracticeViewModel.swift in Sources */,
+				9247D562778E13F32CFF7262 /* ReportView.swift in Sources */,
+				B57715CCADFC508B2707890A /* ScoringEngine.swift in Sources */,
+				522461C551CD4ED01AD8C1D1 /* SkeletonOverlayView.swift in Sources */,
+				554DEFC823974CD9BBD30D37 /* UserStats.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989CFDE7610DAD86F5F443CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9BE8FBBF2CB70CE9E715F6 /* MovementResultTests.swift in Sources */,
+				B9C8671442B9271BACCC308A /* PoseAnalyzerTests.swift in Sources */,
+				C4B309448A612C0E0DDCA445 /* PoseComparisonServiceTests.swift in Sources */,
+				F305ACB40F3543E62377D79B /* PracticeSessionTests.swift in Sources */,
+				342840922153042BA49DCB4E /* PracticeViewModelTests.swift in Sources */,
+				D0659127130CEF3E3E17D516 /* ScoringEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61958FD99DD371659A93F2C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9C100B7D37953C8BFAAD51 /* BaDuanJin */;
+			targetProxy = A51C212441D5F44AF7639149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123AC5C4EB1EC85FD71BDE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinqi.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaDuanJin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BaDuanJin";
+			};
+			name = Debug;
+		};
+		3E6270AA64A11FEA7DB834AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BaDuanJin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinqi.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_INTERFACE_ORIENTATIONS_IPAD = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		429C5D940C07C0A35089575D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BaDuanJin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinqi.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_INTERFACE_ORIENTATIONS_IPAD = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7DD506550AE24ED3D73D4814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BaDuanJin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		9A628B6FB7DE0C72C043DDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BaDuanJin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA75BAB91D26FD93EB0E3844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinqi.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaDuanJin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BaDuanJin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1713DD9758EAE8A610C549 /* Build configuration list for PBXNativeTarget "BaDuanJinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123AC5C4EB1EC85FD71BDE2A /* Debug */,
+				AA75BAB91D26FD93EB0E3844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C8AD4601293568C2C71AB43 /* Build configuration list for PBXProject "BaDuanJin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A628B6FB7DE0C72C043DDEC /* Debug */,
+				7DD506550AE24ED3D73D4814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1A7D09DD14C2807E0CCEFB8 /* Build configuration list for PBXNativeTarget "BaDuanJin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429C5D940C07C0A35089575D /* Debug */,
+				3E6270AA64A11FEA7DB834AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F0D06AFB494C5AE279ADFC5 /* Project object */;
+}

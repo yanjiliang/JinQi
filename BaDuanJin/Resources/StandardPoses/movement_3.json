@@ -1,0 +1,40 @@
+{
+  "movementIndex": 3,
+  "movementName": "五劳七伤往后瞧",
+  "holdPhase": "头部充分转向后方定式时",
+  "angleChecks": [
+    {
+      "name": "颈部转动角度",
+      "jointA": "left_ear_joint",
+      "vertex": "neck_1_joint",
+      "jointB": "right_ear_joint",
+      "targetAngle": 140,
+      "toleranceDegrees": 20,
+      "weight": 0.50,
+      "feedbackWhenLow": "头部转动幅度不够，眼睛尽量看向正后方",
+      "feedbackWhenHigh": "头部转动幅度适中，不要强行超范围"
+    },
+    {
+      "name": "肩部水平",
+      "jointA": "left_shoulder_1_joint",
+      "vertex": "neck_1_joint",
+      "jointB": "right_shoulder_1_joint",
+      "targetAngle": 140,
+      "toleranceDegrees": 20,
+      "weight": 0.30,
+      "feedbackWhenLow": "肩膀放松，不要耸肩",
+      "feedbackWhenHigh": "肩膀放松，保持水平"
+    },
+    {
+      "name": "脊柱直立",
+      "jointA": "neck_1_joint",
+      "vertex": "root",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 175,
+      "toleranceDegrees": 10,
+      "weight": 0.20,
+      "feedbackWhenLow": "保持脊柱直立，身体不要前倾",
+      "feedbackWhenHigh": "保持脊柱直立，不要后仰"
+    }
+  ]
+}

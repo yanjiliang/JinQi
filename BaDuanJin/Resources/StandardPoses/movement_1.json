@@ -1,0 +1,40 @@
+{
+  "movementIndex": 1,
+  "movementName": "左右开弓似射雕",
+  "holdPhase": "开弓拉满后定式保持时",
+  "angleChecks": [
+    {
+      "name": "弓拉手肘角度",
+      "jointA": "left_shoulder_1_joint",
+      "vertex": "left_elbow_joint",
+      "jointB": "left_wrist_joint",
+      "targetAngle": 90,
+      "toleranceDegrees": 20,
+      "weight": 0.30,
+      "feedbackWhenLow": "弓拉手肘部弯曲不够，用力向后拉",
+      "feedbackWhenHigh": "弓拉手肘不必弯曲过多"
+    },
+    {
+      "name": "射箭手伸直角度",
+      "jointA": "right_shoulder_1_joint",
+      "vertex": "right_elbow_joint",
+      "jointB": "right_wrist_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 15,
+      "weight": 0.30,
+      "feedbackWhenLow": "射箭手要充分伸直，指向远方",
+      "feedbackWhenHigh": "射箭手保持自然伸直即可"
+    },
+    {
+      "name": "马步膝关节角度",
+      "jointA": "left_upLeg_joint",
+      "vertex": "left_leg_joint",
+      "jointB": "left_foot_joint",
+      "targetAngle": 100,
+      "toleranceDegrees": 20,
+      "weight": 0.40,
+      "feedbackWhenLow": "马步要更低，膝盖弯曲约90度",
+      "feedbackWhenHigh": "马步不必蹲太低"
+    }
+  ]
+}

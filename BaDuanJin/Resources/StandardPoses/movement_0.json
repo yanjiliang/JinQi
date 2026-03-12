@@ -1,0 +1,62 @@
+{
+  "movementIndex": 0,
+  "movementName": "双手托天理三焦",
+  "holdPhase": "双臂充分上举后",
+  "angleChecks": [
+    {
+      "name": "左臂上举",
+      "jointA": "left_elbow_joint",
+      "vertex": "left_shoulder_1_joint",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 20,
+      "weight": 0.25,
+      "feedbackWhenLow": "请将左臂继续向上举高",
+      "feedbackWhenHigh": "左臂不必过度后仰，保持竖直向上"
+    },
+    {
+      "name": "右臂上举",
+      "jointA": "right_elbow_joint",
+      "vertex": "right_shoulder_1_joint",
+      "jointB": "right_upLeg_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 20,
+      "weight": 0.25,
+      "feedbackWhenLow": "请将右臂继续向上举高",
+      "feedbackWhenHigh": "右臂不必过度后仰，保持竖直向上"
+    },
+    {
+      "name": "左肘伸直",
+      "jointA": "left_shoulder_1_joint",
+      "vertex": "left_elbow_joint",
+      "jointB": "left_wrist_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 15,
+      "weight": 0.15,
+      "feedbackWhenLow": "左肘要伸直，手臂充分延伸",
+      "feedbackWhenHigh": "左肘保持自然伸直即可"
+    },
+    {
+      "name": "右肘伸直",
+      "jointA": "right_shoulder_1_joint",
+      "vertex": "right_elbow_joint",
+      "jointB": "right_wrist_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 15,
+      "weight": 0.15,
+      "feedbackWhenLow": "右肘要伸直，手臂充分延伸",
+      "feedbackWhenHigh": "右肘保持自然伸直即可"
+    },
+    {
+      "name": "背部挺直",
+      "jointA": "neck_1_joint",
+      "vertex": "root",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 175,
+      "toleranceDegrees": 10,
+      "weight": 0.20,
+      "feedbackWhenLow": "请挺胸收腹，保持脊柱直立",
+      "feedbackWhenHigh": "腰部不要过度后仰"
+    }
+  ]
+}

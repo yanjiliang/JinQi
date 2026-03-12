@@ -1,0 +1,40 @@
+{
+  "movementIndex": 5,
+  "movementName": "两手攀足固肾腰",
+  "holdPhase": "双手前弯触足定式时",
+  "angleChecks": [
+    {
+      "name": "弯腰角度",
+      "jointA": "neck_1_joint",
+      "vertex": "root",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 60,
+      "toleranceDegrees": 20,
+      "weight": 0.40,
+      "feedbackWhenLow": "继续向前弯腰，双手尽量触碰脚尖",
+      "feedbackWhenHigh": "弯腰幅度适中即可"
+    },
+    {
+      "name": "左膝伸直角度",
+      "jointA": "left_upLeg_joint",
+      "vertex": "left_leg_joint",
+      "jointB": "left_foot_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 15,
+      "weight": 0.30,
+      "feedbackWhenLow": "弯腰时膝盖要伸直，感受腿后侧拉伸",
+      "feedbackWhenHigh": "膝盖保持伸直即可"
+    },
+    {
+      "name": "右膝伸直角度",
+      "jointA": "right_upLeg_joint",
+      "vertex": "right_leg_joint",
+      "jointB": "right_foot_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 15,
+      "weight": 0.30,
+      "feedbackWhenLow": "弯腰时膝盖要伸直，感受腿后侧拉伸",
+      "feedbackWhenHigh": "膝盖保持伸直即可"
+    }
+  ]
+}

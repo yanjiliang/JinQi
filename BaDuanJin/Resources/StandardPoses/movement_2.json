@@ -1,0 +1,51 @@
+{
+  "movementIndex": 2,
+  "movementName": "调理脾胃须单举",
+  "holdPhase": "单臂上举下按定式后",
+  "angleChecks": [
+    {
+      "name": "上举手臂角度",
+      "jointA": "left_elbow_joint",
+      "vertex": "left_shoulder_1_joint",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 20,
+      "weight": 0.35,
+      "feedbackWhenLow": "上举手要继续往上举，尽量贴近耳朵",
+      "feedbackWhenHigh": "上举手保持竖直向上即可"
+    },
+    {
+      "name": "上举手肘伸直",
+      "jointA": "left_shoulder_1_joint",
+      "vertex": "left_elbow_joint",
+      "jointB": "left_wrist_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 15,
+      "weight": 0.25,
+      "feedbackWhenLow": "上举手肘部要伸直",
+      "feedbackWhenHigh": "手肘保持自然伸直"
+    },
+    {
+      "name": "下按手位置",
+      "jointA": "right_elbow_joint",
+      "vertex": "right_shoulder_1_joint",
+      "jointB": "right_upLeg_joint",
+      "targetAngle": 60,
+      "toleranceDegrees": 20,
+      "weight": 0.25,
+      "feedbackWhenLow": "下按手用力向下按，掌心朝下",
+      "feedbackWhenHigh": "下按手保持用力下按姿势"
+    },
+    {
+      "name": "脊柱直立",
+      "jointA": "neck_1_joint",
+      "vertex": "root",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 175,
+      "toleranceDegrees": 10,
+      "weight": 0.15,
+      "feedbackWhenLow": "保持脊柱直立，不要侧弯",
+      "feedbackWhenHigh": "保持脊柱直立，不要侧弯"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "id": 0,
+    "name": "双手托天理三焦",
+    "subtitle": "调理三焦，舒展筋骨",
+    "description": "通过双手上托的动作，拉伸整个脊柱和四肢，调理三焦气机，促进全身气血流通。",
+    "steps": [
+      {"order": 1, "instruction": "自然站立，双手在腹前交叉，掌心向上", "bodyFocus": "双手"},
+      {"order": 2, "instruction": "缓缓上举至头顶，翻转掌心向上用力上托", "bodyFocus": "双臂"},
+      {"order": 3, "instruction": "仰头看手背，保持3秒", "bodyFocus": "颈部"},
+      {"order": 4, "instruction": "缓缓放下，还原起始位", "bodyFocus": "全身"}
+    ],
+    "keyPoints": ["双臂尽量贴近耳朵，充分伸展", "脚趾不要离地", "呼气时上托，吸气时放下"],
+    "commonErrors": [
+      {"error": "肘部弯曲，手臂未充分伸展", "correction": "想象双手将天花板推起，手臂伸直"},
+      {"error": "腰部过度后弓", "correction": "收腹挺胸，腰部保持自然曲线"}
+    ],
+    "breathingGuide": "向上托举时呼气，放下时吸气",
+    "repeatCount": "做6-8次",
+    "holdDuration": 3.0,
+    "hasSides": false
+  },
+  {
+    "id": 1,
+    "name": "左右开弓似射雕",
+    "subtitle": "扩展胸廓，强健手臂",
+    "description": "模仿拉弓射箭的动作，扩展胸廓，增强肺功能，同时锻炼手臂和肩部力量。",
+    "steps": [
+      {"order": 1, "instruction": "马步站立，双手在胸前交叉", "bodyFocus": "下肢"},
+      {"order": 2, "instruction": "一手向侧方拉弓，另一手食指伸直指向远方", "bodyFocus": "双臂"},
+      {"order": 3, "instruction": "眼看食指方向，保持3秒", "bodyFocus": "颈部"},
+      {"order": 4, "instruction": "还原，换另一侧", "bodyFocus": "全身"}
+    ],
+    "keyPoints": ["拉弓手肘与肩同高", "指射手手臂完全伸直", "马步要低，膝盖不超过脚尖"],
+    "commonErrors": [
+      {"error": "马步不稳，重心偏移", "correction": "两脚分开与肩同宽的1.5倍，脚尖向前"},
+      {"error": "拉弓手肘抬得不够", "correction": "肘部保持与肩同高，感受胸部打开"}
+    ],
+    "breathingGuide": "展开时呼气，收回时吸气",
+    "repeatCount": "左右各做3-5次",
+    "holdDuration": 3.0,
+    "hasSides": true
+  },
+  {
+    "id": 2,
+    "name": "调理脾胃须单举",
+    "subtitle": "健脾和胃，调理消化",
+    "description": "通过一手上举一手下按的对拉动作，调理脾胃气机，促进消化功能。",
+    "steps": [
+      {"order": 1, "instruction": "自然站立，双臂垂于身体两侧", "bodyFocus": "全身"},
+      {"order": 2, "instruction": "一手掌心向上缓缓上举至头顶", "bodyFocus": "上举手"},
+      {"order": 3, "instruction": "另一手掌心向下用力下按，保持3秒", "bodyFocus": "下按手"},
+      {"order": 4, "instruction": "还原，换另一侧", "bodyFocus": "全身"}
+    ],
+    "keyPoints": ["上举手要充分伸展，贴近耳朵", "下按手掌心朝下，手指向前", "两手形成对拉之力"],
+    "commonErrors": [
+      {"error": "上举手肘部弯曲", "correction": "手臂完全伸直，感受侧腰的拉伸"},
+      {"error": "身体侧倾", "correction": "保持躯干直立，只有手臂用力"}
+    ],
+    "breathingGuide": "上举时呼气，还原时吸气",
+    "repeatCount": "左右各做3-5次",
+    "holdDuration": 3.0,
+    "hasSides": true
+  },
+  {
+    "id": 3,
+    "name": "五劳七伤往后瞧",
+    "subtitle": "消除疲劳，调节颈椎",
+    "description": "通过头部转动向后看的动作，缓解颈椎紧张，消除五劳七伤积累的疲劳。",
+    "steps": [
+      {"order": 1, "instruction": "自然站立，双臂自然下垂", "bodyFocus": "全身"},
+      {"order": 2, "instruction": "头部缓缓向一侧转动至最大幅度", "bodyFocus": "颈部"},
+      {"order": 3, "instruction": "眼睛尽量向正后方看，保持3秒", "bodyFocus": "颈部"},
+      {"order": 4, "instruction": "缓慢还原，换另一侧", "bodyFocus": "颈部"}
+    ],
+    "keyPoints": ["转头要缓慢，量力而为", "肩膀保持放松不耸肩", "感受颈部肌肉的拉伸"],
+    "commonErrors": [
+      {"error": "肩膀随头一起转动", "correction": "双肩保持固定，只转动颈部"},
+      {"error": "转头幅度过大过快", "correction": "缓慢转动，避免颈椎损伤"}
+    ],
+    "breathingGuide": "转头时呼气，还原时吸气",
+    "repeatCount": "左右各做3-5次",
+    "holdDuration": 3.0,
+    "hasSides": true
+  },
+  {
+    "id": 4,
+    "name": "摇头摆尾去心火",
+    "subtitle": "清心降火，平衡阴阳",
+    "description": "在马步基础上做摇头摆尾动作，疏通督脉，清心降火，调节情绪。",
+    "steps": [
+      {"order": 1, "instruction": "马步站立，双手扶膝", "bodyFocus": "下肢"},
+      {"order": 2, "instruction": "上身向一侧倾斜，头向同侧摇动", "bodyFocus": "上身"},
+      {"order": 3, "instruction": "同时臀部向另一侧摆动，保持3秒", "bodyFocus": "臀部"},
+      {"order": 4, "instruction": "还原，换另一侧", "bodyFocus": "全身"}
+    ],
+    "keyPoints": ["马步要稳，膝盖弯曲约90度", "头和尾（臀部）方向相反", "动作要连贯流畅"],
+    "commonErrors": [
+      {"error": "马步太浅，没有充分弯曲", "correction": "大腿尽量平行于地面，重心下沉"},
+      {"error": "头和臀部朝同方向摆", "correction": "头向左时臀向右，形成对拉"}
+    ],
+    "breathingGuide": "摆动时自然呼吸",
+    "repeatCount": "左右各做3-5次",
+    "holdDuration": 3.0,
+    "hasSides": true
+  },
+  {
+    "id": 5,
+    "name": "两手攀足固肾腰",
+    "subtitle": "强健腰肾，柔韧脊柱",
+    "description": "通过弯腰双手攀足的动作，强肾固腰，增强脊柱和腿部后侧柔韧性。",
+    "steps": [
+      {"order": 1, "instruction": "自然站立，双手从腰部沿脊柱向上摩运", "bodyFocus": "腰部"},
+      {"order": 2, "instruction": "上举过头顶，然后向前向下弯腰", "bodyFocus": "全身"},
+      {"order": 3, "instruction": "双手尽量触摸脚尖或地面，保持3秒", "bodyFocus": "腰背"},
+      {"order": 4, "instruction": "缓缓起身还原", "bodyFocus": "腰部"}
+    ],
+    "keyPoints": ["弯腰时膝盖尽量伸直", "不要猛然弯腰，循序渐进", "感受腰背和腿后侧的拉伸"],
+    "commonErrors": [
+      {"error": "弯腰时膝盖弯曲", "correction": "保持腿部伸直，感受拉伸更充分"},
+      {"error": "起身过快", "correction": "缓慢起身，先抬头，再依次直腰"}
+    ],
+    "breathingGuide": "弯腰时呼气，起身时吸气",
+    "repeatCount": "做6-8次",
+    "holdDuration": 3.0,
+    "hasSides": false
+  },
+  {
+    "id": 6,
+    "name": "攒拳怒目增气力",
+    "subtitle": "增强气力，疏肝明目",
+    "description": "通过握拳出击和怒目圆睁的动作，刺激肝经，增强体力，激发阳气。",
+    "steps": [
+      {"order": 1, "instruction": "马步站立，双手握拳收于腰间", "bodyFocus": "下肢"},
+      {"order": 2, "instruction": "一手缓缓向前冲出，怒目圆睁", "bodyFocus": "拳手"},
+      {"order": 3, "instruction": "拳与肩同高，保持2秒", "bodyFocus": "上肢"},
+      {"order": 4, "instruction": "收回，换另一手", "bodyFocus": "全身"}
+    ],
+    "keyPoints": ["出拳时旋转前臂（拳心由上转向下）", "怒目要配合发力", "收拳时拳心朝上"],
+    "commonErrors": [
+      {"error": "出拳力度不足", "correction": "想象真正击打目标，全身发力"},
+      {"error": "肩膀耸起", "correction": "出拳时肩膀下沉，力从腰发"}
+    ],
+    "breathingGuide": "出拳时呼气，收回时吸气",
+    "repeatCount": "左右各做3-5次",
+    "holdDuration": 2.0,
+    "hasSides": true
+  },
+  {
+    "id": 7,
+    "name": "背后七颠百病消",
+    "subtitle": "振奋阳气，消除百病",
+    "description": "通过踮脚和落脚的震动，疏通全身经络，振奋阳气，消除各种不适。",
+    "steps": [
+      {"order": 1, "instruction": "自然站立，双臂自然下垂", "bodyFocus": "全身"},
+      {"order": 2, "instruction": "双脚跟同时缓缓离地，踮起脚尖", "bodyFocus": "脚部"},
+      {"order": 3, "instruction": "保持平衡，轻震落下", "bodyFocus": "全身"},
+      {"order": 4, "instruction": "脚跟落地时稍用力，感受震动传导", "bodyFocus": "脊柱"}
+    ],
+    "keyPoints": ["踮脚时尽量高，脚跟离地", "落地时自然放松，不要用力跳", "保持全身放松"],
+    "commonErrors": [
+      {"error": "踮脚高度不够", "correction": "尽量用脚尖支撑，感受小腿用力"},
+      {"error": "落地时重心不稳", "correction": "双脚平行，间距与肩同宽"}
+    ],
+    "breathingGuide": "踮起时吸气，落下时呼气",
+    "repeatCount": "连续做7次",
+    "holdDuration": 1.0,
+    "hasSides": false
+  }
+]

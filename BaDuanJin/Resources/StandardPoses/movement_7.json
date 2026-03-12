@@ -1,0 +1,40 @@
+{
+  "movementIndex": 7,
+  "movementName": "背后七颠百病消",
+  "holdPhase": "踮脚跟上提至最高点时",
+  "angleChecks": [
+    {
+      "name": "踝关节上提角度",
+      "jointA": "left_leg_joint",
+      "vertex": "left_foot_joint",
+      "jointB": "left_toes_joint",
+      "targetAngle": 130,
+      "toleranceDegrees": 20,
+      "weight": 0.40,
+      "feedbackWhenLow": "踮脚高度不够，脚跟尽量离地",
+      "feedbackWhenHigh": "踮脚幅度适中即可"
+    },
+    {
+      "name": "脊柱直立",
+      "jointA": "neck_1_joint",
+      "vertex": "root",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 175,
+      "toleranceDegrees": 10,
+      "weight": 0.35,
+      "feedbackWhenLow": "踮脚时保持脊柱直立，不要前倾",
+      "feedbackWhenHigh": "保持脊柱直立，不要后仰"
+    },
+    {
+      "name": "双臂自然下垂",
+      "jointA": "left_elbow_joint",
+      "vertex": "left_shoulder_1_joint",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 10,
+      "toleranceDegrees": 20,
+      "weight": 0.25,
+      "feedbackWhenLow": "手臂自然下垂放松",
+      "feedbackWhenHigh": "手臂不必举起，自然下垂即可"
+    }
+  ]
+}

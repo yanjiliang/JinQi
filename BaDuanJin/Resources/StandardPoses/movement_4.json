@@ -1,0 +1,40 @@
+{
+  "movementIndex": 4,
+  "movementName": "摇头摆尾去心火",
+  "holdPhase": "马步站稳上身侧倾定式时",
+  "angleChecks": [
+    {
+      "name": "左膝弯曲角度",
+      "jointA": "left_upLeg_joint",
+      "vertex": "left_leg_joint",
+      "jointB": "left_foot_joint",
+      "targetAngle": 100,
+      "toleranceDegrees": 20,
+      "weight": 0.30,
+      "feedbackWhenLow": "马步要更低，左膝弯曲约90度",
+      "feedbackWhenHigh": "马步不必过低，注意保护膝盖"
+    },
+    {
+      "name": "右膝弯曲角度",
+      "jointA": "right_upLeg_joint",
+      "vertex": "right_leg_joint",
+      "jointB": "right_foot_joint",
+      "targetAngle": 100,
+      "toleranceDegrees": 20,
+      "weight": 0.30,
+      "feedbackWhenLow": "马步要更低，右膝弯曲约90度",
+      "feedbackWhenHigh": "马步不必过低，注意保护膝盖"
+    },
+    {
+      "name": "上身侧倾角度",
+      "jointA": "neck_1_joint",
+      "vertex": "root",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 155,
+      "toleranceDegrees": 20,
+      "weight": 0.40,
+      "feedbackWhenLow": "上身侧倾幅度不够，随头部倾斜",
+      "feedbackWhenHigh": "侧倾幅度适中，保持马步稳定"
+    }
+  ]
+}

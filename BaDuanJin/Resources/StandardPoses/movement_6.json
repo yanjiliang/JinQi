@@ -1,0 +1,40 @@
+{
+  "movementIndex": 6,
+  "movementName": "攒拳怒目增气力",
+  "holdPhase": "出拳到位马步定式后",
+  "angleChecks": [
+    {
+      "name": "出拳手臂伸直",
+      "jointA": "left_shoulder_1_joint",
+      "vertex": "left_elbow_joint",
+      "jointB": "left_wrist_joint",
+      "targetAngle": 170,
+      "toleranceDegrees": 15,
+      "weight": 0.40,
+      "feedbackWhenLow": "出拳手要充分伸直，全力前推",
+      "feedbackWhenHigh": "手臂保持自然伸直即可"
+    },
+    {
+      "name": "出拳高度",
+      "jointA": "left_elbow_joint",
+      "vertex": "left_shoulder_1_joint",
+      "jointB": "left_upLeg_joint",
+      "targetAngle": 90,
+      "toleranceDegrees": 20,
+      "weight": 0.30,
+      "feedbackWhenLow": "出拳高度不够，拳与肩同高",
+      "feedbackWhenHigh": "出拳略微偏高，调整到与肩同高"
+    },
+    {
+      "name": "马步稳定",
+      "jointA": "left_upLeg_joint",
+      "vertex": "left_leg_joint",
+      "jointB": "left_foot_joint",
+      "targetAngle": 100,
+      "toleranceDegrees": 20,
+      "weight": 0.30,
+      "feedbackWhenLow": "马步要更低更稳，出拳时下盘稳固",
+      "feedbackWhenHigh": "马步保持稳定即可"
+    }
+  ]
+}
