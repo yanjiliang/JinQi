@@ -7,37 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110104152722C82F9B8B001E /* MovementKeyframeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B2D886D0E0B5B439613B3 /* MovementKeyframeLibrary.swift */; };
 		1F4B954FF06419B2DD3B11D3 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B19DAA0F1ECFB03DD32BC /* PracticeViewModel.swift */; };
+		20CCAF47F83D6AB66818C5BF /* MovementKeyframes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90582174601F23499DA26040 /* MovementKeyframes.swift */; };
 		24A508EB1734C5F4C1825066 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC250953E037C63D7E6E68 /* FeedbackView.swift */; };
 		2689B281E7920890A38597B0 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8C247C000E4B14C4E070D /* HistoryViewModel.swift */; };
 		2A918D02799604731A2E17C1 /* PoseComparisonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAB7C969F984145DF269F6 /* PoseComparisonService.swift */; };
 		342840922153042BA49DCB4E /* PracticeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52C801D5C9ADDFF045B309 /* PracticeViewModelTests.swift */; };
 		36F664BF52D69C350F19E9B2 /* BaDuanJinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78265C3AE4D5C2895876D39 /* BaDuanJinApp.swift */; };
+		3A5777232FC3769FF7828910 /* movements.json in Resources */ = {isa = PBXBuildFile; fileRef = 027A4D8890939E4CB169881C /* movements.json */; };
 		4D7B6A6250369047F082E8C3 /* PracticePreparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6B63663753BC2432D2860 /* PracticePreparationView.swift */; };
 		522461C551CD4ED01AD8C1D1 /* SkeletonOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE84FFC2A88D7EE9124225 /* SkeletonOverlayView.swift */; };
+		53817E25782AF46893E37184 /* movement_0.json in Resources */ = {isa = PBXBuildFile; fileRef = F58E68D46CEF5132D738B104 /* movement_0.json */; };
 		554DEFC823974CD9BBD30D37 /* UserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F467FBD388043941C29E420 /* UserStats.swift */; };
 		55830AA46E2813FF4625A7E5 /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF7FBE588C9FA52CD77CD4 /* PracticeSession.swift */; };
 		5B1F787A1ACC0FE19123374F /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDC3EA7AA84DB15D122BDB4 /* CameraPreviewView.swift */; };
+		5C9C8167E9E98D84A5DFAB20 /* movement_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 06198D6D0F402085403ED864 /* movement_2.json */; };
 		5D30C6B148C48E467A9977B5 /* MovementLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1BAFF329268582F4D048AB /* MovementLibraryView.swift */; };
+		61CECBC5636E0037D3FC1AAD /* movement_5.json in Resources */ = {isa = PBXBuildFile; fileRef = D90A8A97C957380CADE275E7 /* movement_5.json */; };
+		65E9D5A40038C6CB2E9A9B1C /* movement_1.json in Resources */ = {isa = PBXBuildFile; fileRef = A67D360BFFF018061746A2E2 /* movement_1.json */; };
 		69533885F860791EA98A6587 /* PoseDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F17B7EA5F0357022628BA4 /* PoseDetectionService.swift */; };
 		7DF15934C156188400E7923A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999D4C9CF509EAFA51E8BD52 /* HistoryView.swift */; };
 		8CB2537CC3647C728BFADD7E /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4D523210CA279551E32E2 /* CameraService.swift */; };
+		8E8C32A7B361375CF69C8862 /* movement_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 152ACE2AB3482CE43044B282 /* movement_6.json */; };
 		9247D562778E13F32CFF7262 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72983539D1728F3096BFD9EA /* ReportView.swift */; };
+		95D6C5E38AC84152BAD86421 /* movement_3.json in Resources */ = {isa = PBXBuildFile; fileRef = D6A77EEAEB043717BA989F2C /* movement_3.json */; };
 		ACCFC98A70AE4872AE9A92B8 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB59D93CE381B2A26ABB91E /* DashboardViewModel.swift */; };
 		B111FB997973A9268AAA227A /* MovementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37C7ADFBF2A7156E6EBB58 /* MovementDefinition.swift */; };
 		B57715CCADFC508B2707890A /* ScoringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6E02CFE11289B7B85F9D8E /* ScoringEngine.swift */; };
+		B9B4CEC42841532795F84937 /* movement_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 09CDDD1B369F465577C04C32 /* movement_4.json */; };
 		B9C8671442B9271BACCC308A /* PoseAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013011BECA7C6DA46E7A450 /* PoseAnalyzerTests.swift */; };
 		BF9BE8FBBF2CB70CE9E715F6 /* MovementResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A2D7911BE67FDF1864884 /* MovementResultTests.swift */; };
 		C4B309448A612C0E0DDCA445 /* PoseComparisonServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87917589957D0BFCAB62A873 /* PoseComparisonServiceTests.swift */; };
 		CC50413E0BEBB0326DD0F973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A58CD1469066AAA25CFFC /* ContentView.swift */; };
 		CC9EEAE9102EC464A69D4D29 /* PracticeCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ABB8B52E54A33BFC582617 /* PracticeCompletionView.swift */; };
 		CCF531ECA3904EFC99E88E7F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D768FCCBAF9C72820613E0 /* DashboardView.swift */; };
+		CF12BD52C351C28B62A67418 /* movement_7.json in Resources */ = {isa = PBXBuildFile; fileRef = F8DC9F0F45CD14A5575E567E /* movement_7.json */; };
 		D0659127130CEF3E3E17D516 /* ScoringEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5680B6A67384E6C91540B57 /* ScoringEngineTests.swift */; };
+		D1E7C288C60062CB48CF8A2E /* MovementAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1EC7AD293E7D38AFCEAF0 /* MovementAnimationView.swift */; };
 		D589519E988816510CA52563 /* MovementResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2238D62025E0F553B0033A3 /* MovementResult.swift */; };
 		D5957763B012C59DD03CAD0A /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783408E7D99B8AC8E28E4F46 /* PracticeView.swift */; };
 		E22265BFD17B12127BAF927C /* PoseAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74C2CDB6475A34AF331F20 /* PoseAnalyzer.swift */; };
 		E4AF31C7FFADCC365DC058E8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250FDCAB5E698159C4698021 /* Extensions.swift */; };
 		F305ACB40F3543E62377D79B /* PracticeSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0EB48DA682A3813D3995 /* PracticeSessionTests.swift */; };
+		F539C775966C11C3870F78EE /* animation_keyframes.json in Resources */ = {isa = PBXBuildFile; fileRef = A3CE1ECD0186E4B709CEB007 /* animation_keyframes.json */; };
 		FFD1072E2B41EBD310AF6594 /* PracticeDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFED30D2DAB6ED55EB80ACF9 /* PracticeDetectionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,14 +65,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027A4D8890939E4CB169881C /* movements.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movements.json; sourceTree = "<group>"; };
+		06198D6D0F402085403ED864 /* movement_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_2.json; sourceTree = "<group>"; };
+		09CDDD1B369F465577C04C32 /* movement_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_4.json; sourceTree = "<group>"; };
 		0DAF7FBE588C9FA52CD77CD4 /* PracticeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSession.swift; sourceTree = "<group>"; };
+		152ACE2AB3482CE43044B282 /* movement_6.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_6.json; sourceTree = "<group>"; };
 		1A4A58CD1469066AAA25CFFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		250FDCAB5E698159C4698021 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2779C3A669F1A63CF70BB4CF /* BaDuanJin.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BaDuanJin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB527AB8E3D372A53BC853B /* BaDuanJinTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BaDuanJinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D768FCCBAF9C72820613E0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		3E52C801D5C9ADDFF045B309 /* PracticeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModelTests.swift; sourceTree = "<group>"; };
+		418B2D886D0E0B5B439613B3 /* MovementKeyframeLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementKeyframeLibrary.swift; sourceTree = "<group>"; };
 		45E4D523210CA279551E32E2 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		52E1EC7AD293E7D38AFCEAF0 /* MovementAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementAnimationView.swift; sourceTree = "<group>"; };
 		52F17B7EA5F0357022628BA4 /* PoseDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetectionService.swift; sourceTree = "<group>"; };
 		59E8C247C000E4B14C4E070D /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
 		6ACAB7C969F984145DF269F6 /* PoseComparisonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseComparisonService.swift; sourceTree = "<group>"; };
@@ -69,10 +88,13 @@
 		7E37C7ADFBF2A7156E6EBB58 /* MovementDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementDefinition.swift; sourceTree = "<group>"; };
 		83DC250953E037C63D7E6E68 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
 		87917589957D0BFCAB62A873 /* PoseComparisonServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseComparisonServiceTests.swift; sourceTree = "<group>"; };
+		90582174601F23499DA26040 /* MovementKeyframes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementKeyframes.swift; sourceTree = "<group>"; };
 		999D4C9CF509EAFA51E8BD52 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		9DBE84FFC2A88D7EE9124225 /* SkeletonOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonOverlayView.swift; sourceTree = "<group>"; };
 		9F467FBD388043941C29E420 /* UserStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStats.swift; sourceTree = "<group>"; };
 		A02B19DAA0F1ECFB03DD32BC /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		A3CE1ECD0186E4B709CEB007 /* animation_keyframes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animation_keyframes.json; sourceTree = "<group>"; };
+		A67D360BFFF018061746A2E2 /* movement_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_1.json; sourceTree = "<group>"; };
 		AB1BAFF329268582F4D048AB /* MovementLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementLibraryView.swift; sourceTree = "<group>"; };
 		ABDC3EA7AA84DB15D122BDB4 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		AFCA0EB48DA682A3813D3995 /* PracticeSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSessionTests.swift; sourceTree = "<group>"; };
@@ -81,11 +103,15 @@
 		BFED30D2DAB6ED55EB80ACF9 /* PracticeDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeDetectionView.swift; sourceTree = "<group>"; };
 		CA6E02CFE11289B7B85F9D8E /* ScoringEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringEngine.swift; sourceTree = "<group>"; };
 		D2238D62025E0F553B0033A3 /* MovementResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementResult.swift; sourceTree = "<group>"; };
+		D6A77EEAEB043717BA989F2C /* movement_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_3.json; sourceTree = "<group>"; };
 		D78265C3AE4D5C2895876D39 /* BaDuanJinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaDuanJinApp.swift; sourceTree = "<group>"; };
+		D90A8A97C957380CADE275E7 /* movement_5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_5.json; sourceTree = "<group>"; };
 		E69E7264E11D8339828998C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EE74C2CDB6475A34AF331F20 /* PoseAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseAnalyzer.swift; sourceTree = "<group>"; };
 		F013011BECA7C6DA46E7A450 /* PoseAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseAnalyzerTests.swift; sourceTree = "<group>"; };
 		F2ABB8B52E54A33BFC582617 /* PracticeCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCompletionView.swift; sourceTree = "<group>"; };
+		F58E68D46CEF5132D738B104 /* movement_0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_0.json; sourceTree = "<group>"; };
+		F8DC9F0F45CD14A5575E567E /* movement_7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movement_7.json; sourceTree = "<group>"; };
 		FE4A2D7911BE67FDF1864884 /* MovementResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementResultTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +130,17 @@
 				38D768FCCBAF9C72820613E0 /* DashboardView.swift */,
 			);
 			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3424BBB2F368867B70CBACCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3CE1ECD0186E4B709CEB007 /* animation_keyframes.json */,
+				027A4D8890939E4CB169881C /* movements.json */,
+				C0CD01D2015184513CA4392D /* StandardPoses */,
+			);
+			name = Resources;
+			path = BaDuanJin/Resources;
 			sourceTree = "<group>";
 		};
 		3A0A2A44D078501AE1ACB464 /* Report */ = {
@@ -146,6 +183,7 @@
 			children = (
 				B02124C3A28629187F1823E2 /* BaDuanJin */,
 				E69D7199894A107624CE39A9 /* BaDuanJinTests */,
+				3424BBB2F368867B70CBACCD /* Resources */,
 				4C5CB1D73DB1247BF591953A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				7E37C7ADFBF2A7156E6EBB58 /* MovementDefinition.swift */,
+				418B2D886D0E0B5B439613B3 /* MovementKeyframeLibrary.swift */,
+				90582174601F23499DA26040 /* MovementKeyframes.swift */,
 				D2238D62025E0F553B0033A3 /* MovementResult.swift */,
 				0DAF7FBE588C9FA52CD77CD4 /* PracticeSession.swift */,
 				9F467FBD388043941C29E420 /* UserStats.swift */,
@@ -179,6 +219,7 @@
 			children = (
 				ABDC3EA7AA84DB15D122BDB4 /* CameraPreviewView.swift */,
 				83DC250953E037C63D7E6E68 /* FeedbackView.swift */,
+				52E1EC7AD293E7D38AFCEAF0 /* MovementAnimationView.swift */,
 				9DBE84FFC2A88D7EE9124225 /* SkeletonOverlayView.swift */,
 			);
 			path = Components;
@@ -224,6 +265,21 @@
 				B5680B6A67384E6C91540B57 /* ScoringEngineTests.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		C0CD01D2015184513CA4392D /* StandardPoses */ = {
+			isa = PBXGroup;
+			children = (
+				F58E68D46CEF5132D738B104 /* movement_0.json */,
+				A67D360BFFF018061746A2E2 /* movement_1.json */,
+				06198D6D0F402085403ED864 /* movement_2.json */,
+				D6A77EEAEB043717BA989F2C /* movement_3.json */,
+				09CDDD1B369F465577C04C32 /* movement_4.json */,
+				D90A8A97C957380CADE275E7 /* movement_5.json */,
+				152ACE2AB3482CE43044B282 /* movement_6.json */,
+				F8DC9F0F45CD14A5575E567E /* movement_7.json */,
+			);
+			path = StandardPoses;
 			sourceTree = "<group>";
 		};
 		E69D7199894A107624CE39A9 /* BaDuanJinTests */ = {
@@ -275,6 +331,7 @@
 			buildConfigurationList = F1A7D09DD14C2807E0CCEFB8 /* Build configuration list for PBXNativeTarget "BaDuanJin" */;
 			buildPhases = (
 				92B184870AFE18888F9D6362 /* Sources */,
+				6104E14CE0974938E24EE049 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,6 +393,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6104E14CE0974938E24EE049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F539C775966C11C3870F78EE /* animation_keyframes.json in Resources */,
+				53817E25782AF46893E37184 /* movement_0.json in Resources */,
+				65E9D5A40038C6CB2E9A9B1C /* movement_1.json in Resources */,
+				5C9C8167E9E98D84A5DFAB20 /* movement_2.json in Resources */,
+				95D6C5E38AC84152BAD86421 /* movement_3.json in Resources */,
+				B9B4CEC42841532795F84937 /* movement_4.json in Resources */,
+				61CECBC5636E0037D3FC1AAD /* movement_5.json in Resources */,
+				8E8C32A7B361375CF69C8862 /* movement_6.json in Resources */,
+				CF12BD52C351C28B62A67418 /* movement_7.json in Resources */,
+				3A5777232FC3769FF7828910 /* movements.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92B184870AFE18888F9D6362 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -351,7 +428,10 @@
 				24A508EB1734C5F4C1825066 /* FeedbackView.swift in Sources */,
 				7DF15934C156188400E7923A /* HistoryView.swift in Sources */,
 				2689B281E7920890A38597B0 /* HistoryViewModel.swift in Sources */,
+				D1E7C288C60062CB48CF8A2E /* MovementAnimationView.swift in Sources */,
 				B111FB997973A9268AAA227A /* MovementDefinition.swift in Sources */,
+				110104152722C82F9B8B001E /* MovementKeyframeLibrary.swift in Sources */,
+				20CCAF47F83D6AB66818C5BF /* MovementKeyframes.swift in Sources */,
 				5D30C6B148C48E467A9977B5 /* MovementLibraryView.swift in Sources */,
 				D589519E988816510CA52563 /* MovementResult.swift in Sources */,
 				E22265BFD17B12127BAF927C /* PoseAnalyzer.swift in Sources */,

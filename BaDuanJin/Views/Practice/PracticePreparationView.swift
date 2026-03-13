@@ -50,6 +50,14 @@ struct PracticePreparationView: View {
                     }
                 }
 
+                // 动作预览动画
+                MovementAnimationView(
+                    movementIndex: movementIndex,
+                    style: .compact,
+                    hasSides: movement?.hasSides ?? false
+                )
+                .padding(.horizontal, 40)
+
                 // 关键要领
                 if let keyPoints = movement?.keyPoints, !keyPoints.isEmpty {
                     VStack(alignment: .leading, spacing: 12) {

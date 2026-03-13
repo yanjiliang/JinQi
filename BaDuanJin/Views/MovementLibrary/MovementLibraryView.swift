@@ -111,6 +111,9 @@ struct MovementDetailView: View {
                     // 头部信息
                     headerSection
 
+                    // 动画分解
+                    animationSection
+
                     // 分步骤说明
                     stepsSection
 
@@ -136,6 +139,22 @@ struct MovementDetailView: View {
                 }
             }
         }
+    }
+
+    // MARK: - 动画分解
+    private var animationSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("动作分解", systemImage: "figure.walk")
+                .font(.system(size: 20, weight: .bold))
+
+            MovementAnimationView(
+                movementIndex: movement.id,
+                style: .full,
+                hasSides: movement.hasSides
+            )
+        }
+        .padding(20)
+        .cardStyle()
     }
 
     // MARK: - 头部

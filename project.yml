@@ -20,8 +20,9 @@ targets:
       - path: BaDuanJin
         excludes:
           - "Resources/**"
-    resources:
       - path: BaDuanJin/Resources
+        type: resource
+        buildPhase: resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.jinqi.app
